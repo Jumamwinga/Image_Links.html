@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* CSS Elements */
+        body {
+            background: rgb(136, 204, 164);
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+        }
+        .h1 {
+            font-size: 36px;
+            text-decoration: none;
+            font-weight: 1000;
+            transition: .3s;
+        }
+        .navbar {
+            font-size: 20px;
+            font-weight: 540;
+        }
+        .p {
+            font-size: 20px;
+            font-weight: 540;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="h1">Welcome to My Website</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p class="p">Welcome to our website! We offer a variety of content related to technology, nature, and food.</p>
+        <img src="Image/1702055698912.jpg" style="width: 1225px; height: 600px ;">
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="image-grid">
+            <a href="#" target="_blank">
+                <img src="Image/1701358750786.jpg" >
+            </a>
+            <a href="#" target="_blank">
+                <img src="Image/Teresia 20240307_163806.jpg" >
+            </a>
+            <a href="#" target="_blank">
+                <img src="Image/Dr Mwaringa 20240307_163944.jpg" >
+            </a>
+            <!-- You can add more images as needed -->
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="Image/1709905419597.jpg" target="_blank"> Chapati </a></li>
+            <li><a href="Image/1709905600613.jpg"1709905600613.jpg target="_blank"> Pilau </a></li>
+            <li><a href="Image/Aphu Beko 20240307_172526.jpg" target="_blank"> Passion-Juice </a></li>
+            
+        </ul>
+    </section>
+</body>
+</html>
+
+    
+ 
